@@ -26,9 +26,9 @@ jobs:
     
     - run: echo "${{secrets.DOCKER_PASSWORD}}" | docker login -u "${{secrets.DOCKER_USERNAME}}" --password-stdin
     
-    - run: docker push momotimi/udagram-frontend:v1
-    - run: docker push momotimi/udagram-frontend:v1
-    - run: docker push momotimi/udagram-frontend:v1
+    - run: docker push momotimi/udagram-api-user:v1
+    - run: docker push momotimi/udagram-api-feed:v1
+    - run: docker push momotimi/reverseproxy:v1
     - run: docker push momotimi/udagram-frontend:v1
     
     - run: docker images

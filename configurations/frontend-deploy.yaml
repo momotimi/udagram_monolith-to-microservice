@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend-feed
-        image: momotimi/udagram-frontend:v1
+        image: momotimi/udagram-frontend:v3
         ports:
         - containerPort: 80

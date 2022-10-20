@@ -4,9 +4,9 @@ metadata:
   name: udagramdb-config
 data:
   # property-like keys; each key maps to a simple value
-  POSTGRES_HOST: microlast.cwlpmmxs8iz7.us-east-1.rds.amazonaws.com
-  POSTGRES_DB: microlast
-  AWS_BUCKET: bucket-754199441850
+  POSTGRES_HOST: momotimidb.cjztfhivjvqm.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: momotimidb
+  AWS_BUCKET: bucket-591011541036
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing

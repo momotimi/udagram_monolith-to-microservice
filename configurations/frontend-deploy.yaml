@@ -17,5 +17,12 @@ spec:
       containers:
       - name: backend-feed
         image: momotimi/udagram-frontend:v3
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
+        requests:
+            memory: "128Mi"
+            cpu: "250m"
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"

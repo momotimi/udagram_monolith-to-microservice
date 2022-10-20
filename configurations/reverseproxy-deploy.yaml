@@ -17,5 +17,12 @@ spec:
       containers:
       - name: reverseproxy
         image: momotimi/reverseproxy:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
+        requests:
+            memory: "128Mi"
+            cpu: "250m"
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"
